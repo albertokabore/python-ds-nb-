@@ -201,3 +201,16 @@ for i in range(1, rows + 1):
     # Print right-side stars
     print('*' * i)
 ```
+
+### Export to HTML and Finalize Repo
+Export Using Inline Command (in a Python Cell)
+
+Add a Python cell at the end of your notebook, enter the following Python command (change the file name as needed), and run the cell:
+
+```python
+!jupyter nbconvert --to html python-ds.ipynb
+```
+
+```python
+!jupyter nbconvert --to html S575959.ipynb
+```
